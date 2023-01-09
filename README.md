@@ -1,4 +1,4 @@
-# Hyperproof Hyperproof
+# Homebrew Tap for Hyperproof
 
 ## How do I install these formulae?
 
