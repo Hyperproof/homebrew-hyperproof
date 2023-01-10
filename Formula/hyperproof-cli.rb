@@ -13,6 +13,6 @@ class HyperproofCli < Formula
 
   test do
     version = shell_output("#{bin}/hp --version")
-    assert_match(/0.8.7.[\d+]/, version)
+    assert_match(/0.8.8.[\d+]/, version)
   end
 end
