@@ -1,8 +1,8 @@
 class HyperproofCli < Formula
   desc "Hyperproof Command-line Interface"
   homepage "https://hyperproof.io"
-  url "https://downloads.hyperproof.app/hpcli/hpcli-binaries-1.0.0.tar.gz"
-  sha256 "86d7c4e83e5f86384a82ca52ad5594cd6b7a35247ca1d78f862ed5551ddfd6cb"
+  url "https://downloads.hyperproof.app/hpcli/hpcli-binaries-1.1.0.tar.gz"
+  sha256 "3d4d1b294b0deadc178838a78b59f673f9a701c02c727b40eda0bcf57f37f2f8"
   license "MIT"
 
   def install
@@ -13,6 +13,6 @@ class HyperproofCli < Formula
 
   test do
     version = shell_output("#{bin}/hp --version")
-    assert_match(/1.0.0.[\d+]/, version)
+    assert_match(/1.1.0.[\d+]/, version)
   end
 end
