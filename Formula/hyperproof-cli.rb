@@ -2,7 +2,7 @@ class HyperproofCli < Formula
   desc "Hyperproof Command-line Interface"
   homepage "https://hyperproof.io"
   url "https://downloads.hyperproof.app/hpcli/hpcli-binaries-1.2.2.tar.gz"
-  sha256 "66bb1e0d1c91fd933cfc7ea80251fbe0a87c2ef8b5a6473f081c5b985c8cbcfd"
+  sha256 "efefdfd6a08cc3b65b4fe2cbc9a5bf342e2a02a5613d2b3378d2fd0e128baafe"
   license "MIT"
 
   def install
